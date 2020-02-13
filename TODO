@@ -1,0 +1,14 @@
+✔ Setup react app @done(20-02-13 09:50)
+✔ Setup node server @done(20-02-13 09:50)
+☐ Setup postgre db
+☐ Setup dummy data
+☐ Setup styled components
+☐ Build item component
+    ☐ image, name, price 
+    ☐ rating
+    ☐ 'in cart' state
+    ☐ on hover 'add to cart' 
+    ☐ on hover 'remove from cart'
+☐ Cart state
+☐ Build api to serve data
+☐ Responsiveness
