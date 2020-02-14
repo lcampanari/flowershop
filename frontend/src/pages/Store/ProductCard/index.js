@@ -3,6 +3,7 @@ import Button from '../../../components/Button'
 import Card from '../../../components/Card'
 import Rating from '../../../components/Rating'
 import CartContext from '../../../context/CartContext'
+import InCartBadge from './InCartBadge'
 import './styles.scss'
 
 export default function ProductCard ({ product }) {
@@ -25,6 +26,7 @@ export default function ProductCard ({ product }) {
         className='product-card'
         onClick={onCart ? removeFromCart : addToCart}
       >
+        {onCart && <InCartBadge />}
         <Card.Body>
           <img src={product.thumbnail_url} alt={product.name} />
           <div className='product-card__overlay'>
