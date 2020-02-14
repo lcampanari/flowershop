@@ -1,0 +1,25 @@
+@import "../../styles/customVariables.scss";
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn--success {
+    background-color: $success;
+    color: $white;
+}
+
+.product-card__btn-buy {
+    position: absolute;
+    left: trans;
+    top: 0;
+}

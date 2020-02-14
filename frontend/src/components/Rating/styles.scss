@@ -1,0 +1,14 @@
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 10px;
+}
+
+.rating__point {
+    margin-right: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
