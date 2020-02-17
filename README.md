@@ -41,8 +41,6 @@ Have your PostgreSQL server running and create a database.
     - fill up `REACT_APP_API_HOST` and `REACT_APP_API_PORT` with the `HOST` and `PORT` from `backend/.env`
     - save it and rename the file to `.env`
 
-
-
 ### Populate database
 Go to the `backend/` directory and run:
 ```
