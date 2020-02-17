@@ -33,7 +33,7 @@ Have your PostgreSQL server running and create a database.
 ### Env variables
 On the file `backend/.env.example`, do the following:
 
-- fill up `DB_DATABASE` with the database name you chose on the previous step
+- fill in `DB_DATABASE` with the database name you chose on the previous step
 - choose the port you wish the server to run. Default is `PORT=3333`
 - choose the port on which your database is running. Default for PostgreSQL is `DB_PORT=5432`
 - save it and rename the file to `.env`
