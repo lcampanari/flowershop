@@ -22,19 +22,19 @@ class ProductSeeder {
       color: 'Blue',
       price: 80,
       rating: 4,
-      image: 'product-1.jpg'
+      image: 'product-1.png'
     })
     await Factory.model('App/Models/Product').create({
       color: 'Orange',
       price: 17.6,
       rating: 4.6,
-      image: 'product-2.jpg'
+      image: 'product-2.png'
     })
     await Factory.model('App/Models/Product').create({
       color: 'Pink',
       price: 40,
       rating: 5,
-      image: 'product-3.jpg'
+      image: 'product-3.png'
     })
   }
 }
