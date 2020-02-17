@@ -16,12 +16,15 @@ export default function ProductCard ({ product }) {
   }
 
   function removeFromCart () {
-    cart.filter(item => item.id !== product.id)
+    const updatedCart = cart.filter(item => item.id !== product.id)
+    setCart(updatedCart)
     setOnCart(false)
   }
 
   return (
     <>
+      {console.log(cart)}
+
       <Card
         className='product-card'
         onClick={onCart ? removeFromCart : addToCart}
