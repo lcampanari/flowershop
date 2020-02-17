@@ -1,14 +1,16 @@
 ✔ Setup react app @done(20-02-13 09:50)
 ✔ Setup node server @done(20-02-13 09:50)
-☐ Setup postgre db
-☐ Setup dummy data
-☐ Setup styled components
-☐ Build item component
-    ☐ image, name, price 
-    ☐ rating
-    ☐ 'in cart' state
-    ☐ on hover 'add to cart' 
-    ☐ on hover 'remove from cart'
-☐ Cart state
-☐ Build api to serve data
-☐ Responsiveness
+✔ Setup postgre db @done(20-02-13 15:34)
+✘ Setup dummy data @cancelled(20-02-13 15:34)
+✔ Build item component @done(20-02-14 19:59)
+    ✔ image, name, price @done(20-02-14 20:00)
+    ✔ rating @done(20-02-14 20:00)
+    ✔ 'in cart' state @done(20-02-14 20:00)
+    ✔ on hover 'add to cart' @done(20-02-14 20:00)
+    ✔ on hover 'remove from cart' @done(20-02-14 20:00)
+✔ Cart state @done(20-02-14 19:59)
+✔ Build api to serve data @done(20-02-13 15:34)
+✔ Responsiveness @done(20-02-17 10:41)
+✔ Docs @done(20-02-17 12:07)
+    ✔ Getting started @done(20-02-17 10:41)
+    ✔ Api endpoints @done(20-02-17 12:07)
